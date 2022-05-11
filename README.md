@@ -4,3 +4,7 @@
 # Specifically
 
 - learning about PRs
+
+- making sure it all works from CLI
+
+
