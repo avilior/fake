@@ -14,4 +14,9 @@ Declare the remote
 
 `git remote add origin  https://github.com/avilior/fake`
 
+git push -u origin main
+
+what is going on
+
+
 
