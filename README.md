@@ -36,7 +36,8 @@
  The merged updated this file with these comments.
  
  4. I will then push a change from local to the remote
- 
+After doing a push I can see the how the round trip is working.
+You can make a suggestion on the PR, commit it and on the local you can pull down the changes. 
 # Specifically
 
 - learning about PRs
