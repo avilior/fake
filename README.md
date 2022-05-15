@@ -1,6 +1,19 @@
 # fake
  A fake repo to play with....
  
+ #Experiment 2
+ 
+ In this experiment i want to explore at what point do changes in the PR are visible to me on the local machine
+ 
+ On the PR at the remote I will make a suggestion and place some comments....
+ Then I want to be able to see them on the local machine.
+ Do i have to check them in.  Specifically
+ 0. Push the README branch: issue2 to the REMOTE
+ 1. I will place a comment on the PR
+ 2. I will place a suggestion on the PR
+ 3. I will then fetch/pull the PR to see what i can see on the local machine
+ 4. I will then push a change from local to the remote
+ 
 # Specifically
 
 - learning about PRs
