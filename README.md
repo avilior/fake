@@ -9,6 +9,19 @@
  Then I want to be able to see them on the local machine.
  Do i have to check them in.  Specifically
  0. Push the README branch: issue2 to the REMOTE
+ 
+ 1158  git switch issue2
+ 1159  git branch
+ 1162  git status
+ 1163  git add README.md
+ 1164  git commit -m "issue2 starts"
+ 1165  git remote
+ 1166  git push -u origin issue2
+ 
+ At this point the we have issue2 on the remote
+ The remote offers to make a pull request.
+ 
+ 
  1. I will place a comment on the PR
  2. I will place a suggestion on the PR
  3. I will then fetch/pull the PR to see what i can see on the local machine
