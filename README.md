@@ -1,6 +1,43 @@
 # fake
  A fake repo to play with....
  
+ #Experiment 2
+ 
+ In this experiment i want to explore at what point do changes in the PR are visible to me on the local machine
+ 
+ On the PR at the remote I will make a suggestion and place some comments....
+ Then I want to be able to see them on the local machine.
+ Do i have to check them in.  Specifically
+ 0. Push the README branch: issue2 to the REMOTE
+ 
+ 1158  git switch issue2
+ 1159  git branch
+ 1162  git status
+ 1163  git add README.md
+ 1164  git commit -m "issue2 starts"
+ 1165  git remote
+ 1166  git push -u origin issue2
+ 
+ At this point the we have issue2 on the remote
+ The remote offers to make a pull request.
+ 
+ 
+ 1. I will place a comment on the PR
+ 2. I will place a suggestion on the PR
+ - here is the suggestion. Now lets see when I can see them on the local machine.  What do I have to do to make them visible on the remote?
+ - first I notice that it asks me to commit the suggestion.
+ - btw I can also edit it (as I am doing now)
+ 3. I will then fetch/pull the PR to see what i can see on the local machine
+ 1172  git fetch
+ 1173  git diff issue2 origing/issue2
+ 1174  git diff
+ 1175  git merge
+ I did a fetch and tried to see what changes but that didn't work....
+ The merged updated this file with these comments.
+ 
+ 4. I will then push a change from local to the remote
+After doing a push I can see the how the round trip is working.
+You can make a suggestion on the PR, commit it and on the local you can pull down the changes. 
 # Specifically
 
 - learning about PRs
