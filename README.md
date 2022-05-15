@@ -28,6 +28,13 @@
  - first I notice that it asks me to commit the suggestion.
  - btw I can also edit it (as I am doing now)
  3. I will then fetch/pull the PR to see what i can see on the local machine
+ 1172  git fetch
+ 1173  git diff issue2 origing/issue2
+ 1174  git diff
+ 1175  git merge
+ I did a fetch and tried to see what changes but that didn't work....
+ The merged updated this file with these comments.
+ 
  4. I will then push a change from local to the remote
  
 # Specifically
