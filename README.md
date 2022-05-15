@@ -24,6 +24,9 @@
  
  1. I will place a comment on the PR
  2. I will place a suggestion on the PR
+ - here is the suggestion. Now lets see when I can see them on the local machine.  What do I have to do to make them visible on the remote?
+ - first I notice that it asks me to commit the suggestion.
+ - btw I can also edit it (as I am doing now)
  3. I will then fetch/pull the PR to see what i can see on the local machine
  4. I will then push a change from local to the remote
  
